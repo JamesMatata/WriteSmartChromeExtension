@@ -13,7 +13,7 @@
 
 1. Clone the repository or download it as a zip file.
    ```bash
-   git clone https://github.com/JamesMatata/WriteSmart.git
+   git clone https://github.com/JamesMatata/WriteSmartChromeExtension
    ```
 
 2. Open Chrome and go to `chrome://extensions/`.
