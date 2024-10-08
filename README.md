@@ -13,7 +13,7 @@
 
 1. Clone the repository or download it as a zip file.
    ```bash
-   git clone https://github.com/yourusername/WriteSmart.git
+   git clone https://github.com/JamesMatata/WriteSmart.git
    ```
 
 2. Open Chrome and go to `chrome://extensions/`.
@@ -41,7 +41,7 @@
 
 1. Replace the placeholder API key in `background.js` with your OpenAI key:
    ```js
-   'Authorization': 'Bearer your-openai-api-key-here'
+   'Authorization': 'Bearer OPEN_API_KEY'
    ```
 
 ## Permissions
