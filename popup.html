@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WriteSmart</title>
+  <style>
+    /* General styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 5px;
+      background-color: #f4f6f9;
+      color: #333;
+      width: 270px;
+      border-radius: 0 0 20px 20px;
+    }
+
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+      color:  #40E0D0;
+      margin-bottom: 10px;
+      text-align: center;
+      width: 100%;
+      background-color: white;
+      box-sizing: border-box;
+      padding: 20px 10px;
+      text-align: center;
+      margin-top: 0;
+      background-image: url(africana.jpg);
+      text-shadow: 0 0 4px black;
+    }
+
+    h3 {
+      font-size: 14px;
+      color: black;
+      margin-top: 5px;
+      margin-bottom: 0px;
+      text-align: center;
+      width: auto;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      resize: none;
+      background-color: #fff;
+      box-sizing: border-box;
+    }
+
+    textarea:focus {
+      outline: none;
+      border-color: black;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: black;
+      color: white;
+      border: none;
+      font-size: 14px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 15px;
+      transition: background-color 0.15s ease;
+      border: 2px solid black;
+    }
+
+    button:hover {
+      background-color: white;
+      color: black;
+    }
+
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    #enhancedText {
+      margin-top: 10px;
+      height: 100px;
+    }
+
+    /* Initially hide the enhancedTextDiv */
+    #enhancedTextDiv {
+      display: none;
+    }
+
+    /* Optional footer styling */
+    footer {
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>WriteSmart</h2>
+
+  <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+  <button id="enhanceText">Enhance Text</button>
+
+  <div id="enhancedTextDiv" style="padding: 5px; box-sizing: border-box; margin: auto; border: 1px solid black; margin-top: 10px;">
+    <h3>Enhanced Text</h3>
+    <textarea id="enhancedText" readonly></textarea>
+    <button id="confirmText">Confirm</button>
+  </div>
+
+  <footer>
+    Powered by AI Writing Assistant
+  </footer>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>
